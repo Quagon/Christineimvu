@@ -3,9 +3,41 @@
 	<title>Christine</title>
 	<link rel="stylesheet" href="css.css">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script type="text/javascript" src="https://rawgit.com/Quagon/Christineimvu/master/docs/script.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
+	<script> 
+	function List(){
+		$("#Index1").show();
+		$("#logo1").show();
+		$("#logo2").hide();
+		$("#Support1").hide();
+		$("#Other1").hide();
+	}
+ 
+	$(document).ready(function(){
+		$("#Index").click(function(){
+		$("#Index1").show();$("#Support1").hide();$("#Other1").hide();
+		});
+		$("#Support").click(function(){
+		$("#Support1").show();$("#Index1").hide();$("#Other1").hide();
+		});
+		$("#Other").click(function(){
+		$("#Other1").show();$("#Index1").hide();$("#Support1").hide();
+		});
+		});
+
+	$(document).ready(function(){
+		$("#logo1").hover(function(){
+		$("#logo2").show();$("#logo1").hide();
+		});
+		$("#logo2").hover(function(){
+		$("#logo1").show();$("#logo2").hide();
+		});
+		$("#flex-logo").hover(function(){
+		$("#logo1").show();$("#logo2").hide();
+		});
+		});
+	</script> 
 	<head>
 	
 	<body onload="List()">
