@@ -1,0 +1,23 @@
+{
+	"name": "christine",
+	"title": "jQuery christine",
+	"description": "jQuery plugin christine homepage.",
+	"keywords": [
+		"christine",
+		"homepage"
+	],
+	"version": "0.0.1",
+	"author": {
+		"name": "Quagon",
+		"url": "https://github.com/Quagon/Christineimvu/blob/master/docs/christine/0.0.1/Quagon.txt"
+	},
+	"maintainers": [{
+		"name": "Quagon",
+		"email": "jonash_msn@hotmail.com",
+		"url": ""
+	}],
+	"licenses": [{
+		"type": "MIT",
+		"url": ""
+	}]
+}
