@@ -295,6 +295,23 @@ a.shop:active {
 	margin: auto 2 auto 2;
 }
 
+/*imvu code*/
+
+#aboutme_panel, #contact_panel, #dev_panel, #wishlist_panel, #visitors_panel,
+#messages_panel, #tagcloud_panel, #stickers_panel, #collect_panel,
+#room_panel, #rankings_panel, #cool_panel, #gallery_panel, #friends_panel,
+#streetteam_panel, #blog_panel, #video_panel_header, #music_panel, #rss_panel, #url_panel,
+#special_panel,#outfits_panel {
+    width:900px !important;
+}
+#rightColumn {
+    display:none !important;
+}
+
+#url_panel_colRow, .imvucodes_net { display:none !important; }
+
+.paneltitle, .panelmenu, .imvucodes_net { display:none !important; }
+
 
 
 
